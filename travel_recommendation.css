@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-image: url(https://www.laumcrh.com/ContentFiles/1882Image.jpg?w=600&h=345&mode=crop);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Page Layout */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.analysisForm,
+.searchCondition {
+    flex: 1;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* Report and Result Sections */
+#report,
+#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+#result {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#result img {
+    width: 200px;
+    height: 100px;
+}

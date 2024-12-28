@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Travel Recommendations</h1>
+        <ul>
+            <li><a href="./index.html" id="home">Home</a></li>
+            <li><a href="./contact_us.html" id="contact">Contact Us</a></li>
+            <li><a href="./about.html" id="about">About Us</a></li>
+            <li>
+                <input type="text" id="conditionInput" placeholder="Travel recommendation">
+            </li>
+            <li>
+                <button id="btnSearch">Search</button>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="analysisForm">
+            <h1>Explore Dream Destination</h1>
+            <button id="addPatient">Book Now</button>
+            <h2>Analysis Report</h2>
+            <div id="report"></div>
+        </div>
+        <div class="searchCondition">
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="./health_analysis.js"></script>
+</body>
+
+</html>
